@@ -36,11 +36,11 @@ main {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    gap: 15px; /* Adds space between the task items */
+    gap: 15px; 
 }
 
 .task p {
-    margin: 0; /* Remove margins for paragraphs inside tasks */
+    margin: 0; 
 }
 
 .task button {
@@ -64,7 +64,7 @@ main {
 .delete-task {
     background-color: #dc3545;
     color: white;
-}
+}*/
 
 
 .task-buttons {
