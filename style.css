@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 15px; /* Adds space between the task items */
+}
+
+.task p {
+    margin: 0; /* Remove margins for paragraphs inside tasks */
+}
+
+.task button {
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/*.mark-done {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-task {
+    background-color: #ffc107;
+    color: white;
+}
+
+.delete-task {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
