@@ -48,13 +48,13 @@ taskList.addEventListener("click", (event) => {
         event.target.classList.remove("mark-done");
         event.target.classList.add("completed-task");
     } else if (event.target.classList.contains("delete-task")) {
-        taskItem.remove(); // Remove task on clicking "Delete"
+        taskItem.remove(); 
     } else if (event.target.classList.contains("edit-task")) {
-        // Edit functionality: Populate the form with the existing task details
+        
         const taskDetails = taskItem.querySelectorAll("p");
         taskInput.value = taskDetails[0].textContent;
         priorityInput.value = taskDetails[1].textContent.split(": ")[1].toLowerCase();
         deadlineInput.value = taskDetails[2].textContent.split(": ")[1];
-        taskItem.remove(); // Remove old task for editing
+        taskItem.remove(); 
     }
 });
